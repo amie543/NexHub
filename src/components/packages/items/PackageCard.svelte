@@ -21,16 +21,22 @@
     </div>
     <div class="mx-2 text-[17px] text-black my-2">{data.title}</div>
     <div class="mx-2 text-[14px] text-[#878787]">{data.subTitle}</div>
-    <div class="flex flex-row justify-evenly mt-4 text-gray-800 my-5">
-        <div>${data.dashboard.price}</div>
-        <div class="">
-            <Icon path={mdiMonitor} size={20}/>
-            {data.dashboard.hour} hours
-        </div>
+    <div class="mx-3 flex flex-row justify-between mt-4 text-black my-5">
         <div>
-            <Icon path={mdiFileOutline} size={20}/>
-            {data.dashboard.article}
-            Articles
+            $ <span class="text-[#4D4D52]">{data.dashboard.price}</span>
+        </div>
+        <div class="flex flex-row items-center">
+            <Icon path={mdiMonitor} size={25} style="mr-0.5"/>
+            <span class="text-[#4D4D52]">
+                {data.dashboard.hour} hours
+            </span>
+        </div>
+        <div class="flex flex-row items-center">
+            <Icon path={mdiFileOutline} size={25} style="mr-1"/>
+            <span class="text-[#4D4D52]">
+                {data.dashboard.article}
+                Articles
+            </span>
         </div>
     </div>
 </div>

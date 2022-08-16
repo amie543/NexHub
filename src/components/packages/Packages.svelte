@@ -1,5 +1,7 @@
 <script lang="ts">
     import PackageCard from "./items/PackageCard.svelte";
+    import PantaAnlge from "./items/PantaAnlge.svelte";
+    import SemiCircle from "./items/SemiCircle.svelte";
     import image1 from "./images/image1.png";
     import image2 from "./images/image2.png";
     import image3 from "./images/image3.png";
@@ -25,7 +27,7 @@
             }
         },
         {
-            image: image1,
+            image: image3,
             title: "Personality development course",
             subTitle: "Personal development",
             dashboard: {
@@ -36,7 +38,9 @@
     }
     ];
 </script>
-<div class="py-20">
+<div class="py-28 relative">
+    <PantaAnlge style="absolute top-[150px]"/>
+    <SemiCircle style="absolute right-0 bottom-20" />
     <div class="container mx-auto">
         <div class="text-[35px]">Featured Packages</div>
         <div class="text-[#BDBDBD] text-[16px] my-2">Everything you need is to choose a package.</div>
