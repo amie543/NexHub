@@ -3,6 +3,7 @@
 	import Training from 'components/training/Training.svelte';
 	import Experience from 'components/experience/Experience.svelte';
 	import Packages from 'components/packages/Packages.svelte';
+	import Platform from 'components/platform/Platform.svelte';
 </script>
 
 <section class="relative w-screen">	
@@ -238,4 +239,5 @@
 <Training />
 <Experience />
 <Packages />
+<Platform />
 <!-- <div class="my-32"></div> -->

@@ -16,7 +16,6 @@ declare module '$env/static/private' {
 	export const SHLVL: string;
 	export const npm_config_noproxy: string;
 	export const HOME: string;
-	export const OLDPWD: string;
 	export const DESKTOP_SESSION: string;
 	export const npm_package_json: string;
 	export const GNOME_SHELL_SESSION_MODE: string;

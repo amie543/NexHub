@@ -29,9 +29,6 @@ export const npm_config_noproxy = "";
 /** @type {import('$env/static/private').HOME} */
 export const HOME = "/home/user";
 
-/** @type {import('$env/static/private').OLDPWD} */
-export const OLDPWD = "/home/user/Documents/svelte";
-
 /** @type {import('$env/static/private').DESKTOP_SESSION} */
 export const DESKTOP_SESSION = "ubuntu";
 
@@ -132,7 +129,7 @@ export const XDG_MENU_PREFIX = "gnome-";
 export const LC_ADDRESS = "en_US.UTF-8";
 
 /** @type {import('$env/static/private').GNOME_TERMINAL_SCREEN} */
-export const GNOME_TERMINAL_SCREEN = "/org/gnome/Terminal/screen/bdd1230d_485c_4de3_948b_1c9befeda4ec";
+export const GNOME_TERMINAL_SCREEN = "/org/gnome/Terminal/screen/cad0d7be_a37d_4bc9_9d7d_5a7e2a8b42a1";
 
 /** @type {import('$env/static/private').XDG_RUNTIME_DIR} */
 export const XDG_RUNTIME_DIR = "/run/user/1000";
