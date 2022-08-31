@@ -5,6 +5,7 @@
 	import Packages from 'components/packages/Packages.svelte';
 	import Platform from 'components/platform/Platform.svelte';
 	import Footer from 'components/footer/Footer.svelte';
+	import Contact from 'components/contact/Contact.svelte';
 </script>
 
 <section class="relative w-screen">	
@@ -241,5 +242,6 @@
 <Experience />
 <Packages />
 <Platform />
+<Contact /> 
 <Footer />
 <!-- <div class="my-32"></div> -->
